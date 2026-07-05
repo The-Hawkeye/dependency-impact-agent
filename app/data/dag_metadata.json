@@ -1,0 +1,17 @@
+{
+  "customer_pipeline": {
+    "children": [
+      "customer_metrics"
+    ]
+  },
+
+  "customer_metrics": {
+    "children": [
+      "revenue_dashboard"
+    ]
+  },
+
+  "revenue_dashboard": {
+    "children": []
+  }
+}
